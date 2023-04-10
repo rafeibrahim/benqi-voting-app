@@ -1,0 +1,39 @@
+
+.single-list-item {
+    background-color: #576CBC;
+    margin: 12px auto;
+    padding: 0.25rem 0.75rem;
+    border-radius: 8px;
+    color: #A5D7E8;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.stats-div {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.single-list-item p {
+    margin: 0;
+}
+
+.votes-p {
+    font-size: 0.8rem;
+}
+
+.percent-p {
+    font-size: 0.8rem;
+}
+
+
+/* .stats-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-container p {
+    margin-left: 8px;
+} */

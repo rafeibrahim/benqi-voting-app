@@ -1,0 +1,17 @@
+.node-list-heading {
+    text-align: center;
+    color: #A5D7E8;
+}
+
+.node-list-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.stats-header {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 48px;
+}

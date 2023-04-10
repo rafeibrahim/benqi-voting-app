@@ -1,0 +1,16 @@
+.user-container {
+  margin: 16px auto;
+  padding: 8px 32px;
+  background-color: #19376d;
+  border-radius: 8px;
+  color: #a5d7e8;
+  font-size: 1.25rem;
+}
+
+.user-container p {
+  margin: 8px 0px;
+}
+
+.user-container h2 {
+  margin: 16px 0px;
+}
