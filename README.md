@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# BenQI Liquid Staking Voting Dashboard
+
+## About the App
+This application has been developed as an interview assignment and to learn DAPP development. DAPP is built on decentralised network that combines smart contract (program stored on the blockchain) and a frontend user interface. This application displays voting statistics of validator nodes for BenQI Liquid Staking Protocol built on Avalanche blockchain. It interacts with following smart contracts to display these statistics. 
+
+1. [VeQI Smart Contract](https://snowtrace.io/address/0x7Ee65Fdc1C534A6b4f9ea2Cc3ca9aC8d6c602aBd)
+2. [Gauage Controller Smart Contract](https://snowtrace.io/address/0x14593cb3Ffe270a72862Eb08CeB57Bc3D4DdC16C)
+
+### Implemented Features
+1. App can connect to user's MetaMask account.
+2. Detect already connected MetaMask account.
+3. Detect change in connected MetaMask account.
+4. Display veQI total supply.
+5. Display connected user's veQI balance. 
+6. Display list of validator nodes with their total votes and relative weight percentage.
+
+## Screenshot
+
+<img width="1352" alt="Screenshot 2023-04-10 at 15 21 41" src="https://user-images.githubusercontent.com/22117035/230900656-0d475d99-d2d0-4703-80b0-2b87a42945d5.png">
+
+## Technologies
+
+HTML, CSS, JavaScript, React.js, Ethers.js, BigNumber.js, FixedNumber.js
+
+## Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This application is still in development mode. 
+In order to run this app in dev mode in your local machine. Please follow the following steps
+1. Download or clone the repository
+2. Run npm intall to install node_modules folder
+3. Run npm run start to run the add in dev mode.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
